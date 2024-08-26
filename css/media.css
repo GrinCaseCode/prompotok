@@ -1,62 +1,5 @@
 /*==========  Desktop First Method  ==========*/
-@media only screen and (max-width : 1600px) {
-    /* body {
-        font-size: 14px;
-    }
-    .navigation {
-        gap: 15px;
-        font-size: 13px;
-    }
-    .header__email {
-        font-size: 14px;
-    }
-    .btn-catalog {
-        font-size: 14px;
-        margin-right: 8px;
-        gap: 11px;
-        border-radius: 6px;
-        padding: 10px 15px;
-    }
-    .logo img {
-        width: 270px;
-    }
-    .form-search {
-        width: 345px;
-    }
-    .header__contacts {
-        gap: 12px;
-    }
-    .list-socials {
-        gap: 6px;
-    }
-    .list-socials img {
-        width: 36px;
-        height: 36px;
-    }
-    .logo-descr {
-        font-size: 11px;
-        max-width: 206px;
-    }
-    .form-search input {
-        height: 46px;
-        padding: 0 15px;
-        padding-right: 45px;
-        font-size: 12px;
-    }
-    .btn-search {
-        height: 46px;
-        width: 46px;
-        background-size: 19px auto;
-    }
-    .menu a {
-        padding: 10px 9px;
-        border-radius: 6px;
-        font-size: 13px;
-    }
-    .menu {
-        gap: 5px;
-    } */
-}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -129,7 +72,7 @@
         font-size: 24px;
     }
     .billbord {
-        padding-top: 15px;
+        padding-top: 0;
         margin: 0 -15px;
     }
     .billbord__info {
@@ -337,6 +280,7 @@
     }
     .consultation-block {
         padding: 20px 15px;
+        padding-bottom: 27px;
         margin-top: 30px;
         background: #00478a;
         border-radius: 24px;

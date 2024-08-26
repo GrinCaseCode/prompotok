@@ -25,6 +25,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
   });
 
+  $('.tabs li a').click(function(event) {
+	event.preventDefault();
+	$(this).parent().parent().find("li").removeClass('active');
+	$(this).parent().addClass('active');
+	$(".tab-pane").fadeOut(0);
+	var selectTab = $(this).attr("href");
+	$(selectTab).fadeIn(200);
+});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 

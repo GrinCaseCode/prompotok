@@ -535,11 +535,10 @@
         height: auto;
         display: block;
         position: relative;
-        border: none;
         border-radius: 0;
-        border: none;
-        background: transparent;
-        border-bottom: 1px solid #191E27;
+        border: none !important;
+        background: transparent !important;
+        border-bottom: 1px solid #191E27 !important;
       }
       .menu-mobile .menu {
         display: block;

@@ -577,6 +577,127 @@
     .no-scroll {
         overflow: hidden;
     }
+  
+    .page-catalog {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .page-catalog .title-section {
+        margin-bottom: 22px;
+    }
+    .sidebar-catalog {
+        padding: 16px 15px;
+        border-radius: 16px;
+        margin-bottom: 20px;
+    }
+    .item-sidebar {
+        margin-bottom: 16px;
+    }
+    .item-sidebar__head {
+        font-size: 16px;
+    }
+    .subcategry-sidebar__content {
+        padding-top: 13px;
+        padding-bottom: 1px;
+    }
+    .subcategry-sidebar {
+        margin-top: 11px;
+    }
+    .subcategry-sidebar__content li {
+        padding-left: 15px;
+        margin-bottom: 8px;
+    }
+    .subcategry-sidebar__content li::before {
+        left: 3px;
+    }
+    .wrapper_page .header {
+        padding-bottom: 20px;
+        border-width: 1px;
+    }
+    .categories-list {
+        margin-bottom: 30px;
+        gap: 3px;
+    }
+    .categories-list a {
+        padding: 7px;
+        font-size: 12px;
+        border-width: 1px;
+        border-radius: 8px;
+    }
+    .item-catalog {
+        padding: 20px;
+        border-radius: 16px;
+        border-width: 1px;
+    }
+    .item-catalog__image {
+        padding: 13px;
+        height: 170px;
+        margin-bottom: 15px;
+    }
+    .item-catalog__title {
+        font-size: 18px;
+        margin-bottom: 11px;
+    }
+    .item-catalog .btn-page {
+        padding: 0 26px;
+    }
+    .pager {
+        height: 40px;
+        margin-top: 35px;
+    }
+    .page-numbers {
+        margin: 0 15px;
+        font-size: 17px;
+    }
+    .prev.page-numbers,
+    .next.page-numbers {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .item-catalog:hover {
+        box-shadow: 0 5px 15px #e6e8f4;
+    }
+
+    
+    .page-contacts {
+        padding-top: 33px;
+    }
+    .contacts-block {
+        padding: 25px 20px;
+        padding-bottom: 1px;
+        min-height: initial;
+        margin-bottom: 25px;
+        border-radius: 16px;
+    }
+    .item-contact {
+        margin-bottom: 23px;
+        font-size: 16px;
+    }
+    .item-contact__title {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .item-contact_time {
+        margin-left: 0;
+    }
+    .page-contacts .title-form {
+        font-size: 28px;
+    }
+    .page-contacts .form-page {
+        padding: 24px 20px;
+        padding-bottom: 29px;
+    }
+    #map {
+        height: 380px;
+        margin-top: 37px;
+    }
+    .contacts-block .title-section {
+        margin-bottom: 20px;
+    }
+    .item-contact_location p {
+        max-width: 260px;
+    }
 }
 
 /* Small Devices, Tablets */

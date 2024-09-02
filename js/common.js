@@ -1,6 +1,20 @@
 $(document).ready(function() {
 
 
+	$(".item-sidebar__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-sidebar").removeClass("active");
+		$(this).parent().siblings(".item-sidebar").find(".item-sidebar__content").slideUp(200);
+	  });
+
+	  $(".subcategry-sidebar__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".subcategry-sidebar").removeClass("active");
+		$(this).parent().siblings(".subcategry-sidebar").find(".subcategry-sidebar__content").slideUp(200);
+	  });
+
 //прилипающие меню
 var $menu = $(".header");
 $(window).scroll(function(){

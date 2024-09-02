@@ -1271,3 +1271,234 @@ form {
 	top: 7px;
 	transform: rotate(-45deg); 
 }
+.page-catalog {
+	padding-top: 1.56vw;
+	padding-bottom: 4.53vw;
+}
+.page-catalog .title-section {
+	margin-bottom: 1.15vw;
+}
+.sidebar-catalog {
+	padding: 0.83vw 0.78vw;
+	border-radius: 0.83vw;
+	background: #f1f5f6;
+}
+.item-sidebar {
+	margin-bottom: 0.83vw;
+}
+.item-sidebar__head {
+	font-size: 0.88vw;
+	line-height: 130%;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #00478a;
+	font-weight: 600;
+	display: block;
+}
+.item-sidebar__head:hover {
+	color: #000;
+}
+.item-sidebar__content {
+	display: none;
+}
+.subcategry-sidebar__content {
+	padding-top: 0.68vw;
+	padding-bottom: 0.05vw;
+	display: none;
+}
+.subcategry-sidebar {
+	margin-top: 0.57vw;
+}
+.subcategry-sidebar__head {
+	font-weight: 500;
+	line-height: 130%;
+	color: #000;
+	cursor: pointer;
+}
+.subcategry-sidebar__content li {
+	padding-left: 0.78vw;
+	margin-bottom: 0.42vw;
+	position: relative;
+}
+.subcategry-sidebar__content li::before {
+    position: absolute;
+    top: 0;
+    left: 0.16vw;
+    content: "•";
+}
+.subcategry-sidebar__content li a {
+	color: #000;
+}
+.subcategry-sidebar__head:hover,
+.subcategry-sidebar__content li a:hover {
+	color: #00478A;
+}
+.wrapper_page .header {
+	padding-bottom: 1.04vw;
+	border-bottom: 0.05vw #D9D9D9 solid;
+}
+.wrapper_page {
+	padding-top: 10.05vw;
+}
+.categories-list {
+	margin-bottom: 1.56vw;
+	gap: 0.26vw;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.categories-list a {
+	padding: 0.61vw;
+	font-size: 0.73vw;
+	border: 0.05vw solid #e6e8f4;
+	border-radius: 0.52vw;
+	background: #f1f5f6;
+	line-height: 130%;
+	font-weight: 500;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.categories-list a:hover,
+.categories-list .active a {
+	background: transparent;
+}
+.item-catalog {
+	padding: 1.04vw;
+	border-radius: 0.83vw;
+	border: 0.05vw solid #e6e8f4;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transition: all 0.3s;
+}
+.item-catalog:hover {
+	box-shadow: 0 0.26vw 0.781vw #e6e8f4;
+}
+.item-catalog__image {
+	padding: 0.68vw;
+	height: 8.85vw;
+	margin-bottom: 0.781vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	overflow: hidden;
+}
+.item-catalog__image img {
+	width: 100%;
+	height: auto;
+}
+.item-catalog__title {
+	font-size: 0.94vw;
+	margin-bottom: 0.57vw;
+	line-height: 160%;
+	color: #000;
+	font-weight: 600;
+}
+.item-catalog .btn-page {
+	padding: 0 1.35vw;
+	margin-top: auto;
+	margin-left: auto;
+}
+.pager {
+	height: 2.08vw;
+	margin-top: 2.86vw;
+	max-width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page-numbers {
+	margin: 0 1.30vw;
+	font-size: 1.04vw;
+	line-height: 130%;
+	color: #182e26;
+	font-weight: 500;
+}
+.page-numbers:hover,
+.page-numbers.current {
+	color: #00478a;
+}
+.page-numbers.current {
+	font-weight: 600;
+}
+.prev.page-numbers,
+.next.page-numbers {
+	width: 2.08vw;
+	height: 2.08vw;
+	font-size: 0.73vw;
+	border-radius: 50%;
+	color: #008a70;
+	border: 0.05vw solid #008a70;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+.next.page-numbers {
+	right: 0;
+	left: auto;
+}
+.prev.page-numbers:hover,
+.next.page-numbers:hover {
+	color: #fff;
+	background: #008a70;
+}
+
+.page-contacts {
+	padding-top: 1.72vw;
+}
+.contacts-block {
+	padding: 1.41vw 2.24vw;
+	padding-bottom: 0.05vw;
+	background: #f1f5f6;
+	border-radius: 0.83vw;
+	min-height: 100%;
+}
+.item-contact {
+	margin-bottom: 2.76vw;
+	font-size: 0.94vw;
+	line-height: 160%;
+	color: #000;
+}
+.item-contact__title {
+	font-size: 1.04vw;
+	margin-bottom: 0.68vw;
+	font-weight: 500;
+	line-height: 140%;
+	text-transform: uppercase;
+}
+.item-contact a,
+.item-contact p a {
+	color: #000;
+}
+.item-contact p {
+	margin: 0;
+}
+.item-contact_time {
+	margin-left: -1.04vw;
+}
+.page-contacts .title-form {
+	font-size: 1.67vw;
+}
+.page-contacts .form-page {
+	padding: 1.41vw 2.60vw;
+	padding-bottom: 1.93vw;
+}
+#map {
+	height: 26.56vw;
+	margin-top: 1.93vw;
+	background: #f1f5f6;
+	width: 100%;
+}
+.contacts-block .title-section {
+	margin-bottom: 2.604vw;
+}

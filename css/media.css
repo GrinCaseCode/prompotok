@@ -579,8 +579,8 @@
     }
   
     .page-catalog {
-        padding-top: 30px;
-        padding-bottom: 60px;
+        padding-top: 25px;
+        padding-bottom: 50px;
     }
     .page-catalog .title-section {
         margin-bottom: 22px;
@@ -612,7 +612,7 @@
         left: 3px;
     }
     .wrapper_page .header {
-        padding-bottom: 20px;
+        padding-bottom: 12px;
         border-width: 1px;
     }
     .categories-list {

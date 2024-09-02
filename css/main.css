@@ -1502,3 +1502,6 @@ form {
 .contacts-block .title-section {
 	margin-bottom: 2.604vw;
 }
+.btn-main_filter {
+	display: none;
+}

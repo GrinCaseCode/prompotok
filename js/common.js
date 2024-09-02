@@ -15,6 +15,12 @@ $(document).ready(function() {
 		$(this).parent().siblings(".subcategry-sidebar").find(".subcategry-sidebar__content").slideUp(200);
 	  });
 
+	  $(".btn-page_filter").click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass("active");
+		$(".sidebar-catalog").slideToggle(200);
+	});
+
 //прилипающие меню
 var $menu = $(".header");
 $(window).scroll(function(){

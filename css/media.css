@@ -713,6 +713,310 @@
         background: #f1f5f6;
         color: #00478a;
     }
+    .slider-for {
+        border-width: 1px;
+        border-radius: 16px;
+    }
+    .slider-for__item {
+        height: 280px;
+        padding: 20px 30px;
+    }
+    .slider-nav__item {
+        height: 90px;
+        padding: 10px;
+        border-width: 1px;
+    }
+    .slider-nav .slick-slide {
+        padding: 0 3px;
+    }
+    .slider-nav .slick-list {
+        margin: 0 -3px;
+    }
+    .slider-nav {
+        margin-top: 9px;
+    }
+    .breadcrumbs {
+        padding-top: 14px;
+        padding-bottom: 19px;
+        font-size: 13px;
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .breadcrumbs li::after {
+        margin: 0 6px;
+    }
+    .breadcrumbs li:last-child::after {
+        display: none;
+    }
+    .card-info {
+        padding: 20px 15px;
+        border-radius: 16px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .title-small {
+        font-size: 16px;
+    }
+    .card-info .title-small {
+        margin-top: 15px;
+        margin-bottom: 11px;
+    }
+    .card-info li {
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+    .card-info li::before {
+        left: 3px;
+    }
+    .card-info__buttons {
+        gap: 20px;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+    .price-main {
+        font-size: 25px;
+    }
+    .card-info .btn-main {
+        padding: 0 42px;
+    }
+    .page-card {
+        padding-bottom: 40px;
+    }
+    .page-card .tabs {
+        margin-top: 25px;
+        padding-bottom: 8px;
+        gap: 11px;
+        margin-right: -15px;
+        overflow: auto;
+    }
+    .page-card .tabs a {
+        padding: 10px 24px;
+        font-size: 16px;
+        white-space: nowrap;
+        border-radius: 10px;
+    }
+    .page-card .tab-container {
+        padding-top: 25px;
+    }
+    .feature {
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    .feature > *:first-child {
+        min-width: initial;
+        padding-right: 10px;
+    }
+    .page-card .tabs::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    .page-card .tabs::-webkit-scrollbar:vertical {
+        width: 3px;
+    }
+    .page-card .tabs::-webkit-scrollbar:horizontal {
+        height: 3px;
+    }
+    .page-card .tabs::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 10px;
+    }
+    .page-card .tabs::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #ccc;
+    }
+    .recommendations {
+        padding-bottom: 60px;
+    }
+    .slider-catalog .slick-slide {
+        padding: 16px;
+        height: inherit !important;
+    }
+    .slider-catalog .slick-list {
+        margin: -16px;
+    }
+    .slider-catalog .slick-prev {
+        left: -70px;
+    }
+    .slider-catalog .slick-next {
+        right: -70px;
+    }
+    .recommendations .title-section {
+        margin-bottom: 27px;
+    }
+    .slider-partners .slick-prev,
+    .slider-team .slick-prev,
+    .slider-catalog .slick-prev {
+        left: -10px;
+    }
+    .slider-partners .slick-next,
+    .slider-team .slick-next,
+    .slider-catalog .slick-next {
+        right: -10px;
+    }
+    .slider-catalog .slick-arrow {
+        margin-top: 10px;
+    }
+    .fancybox-slide--html .fancybox-close-small {
+        padding: 5px;
+        right: 4px;
+        top: 6px;
+    }
+    .descr-form {
+        margin-bottom: 33px;
+    }
+    .modal-block .form-page {
+        padding: 28px 20px;
+        width: 387px;
+    }
+    .modal-block .form-page .title-form {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .modal-block .form-page .item-form input {
+        height: 56px;
+    }
+    .modal-block .form-page .btn-main {
+        font-size: 15px;
+        margin-top: 24px;
+        height: 54px;
+    }
+    .page-mockup {
+        padding-top: 75px;
+        padding-bottom: 120px;
+    }
+    .title-mockup {
+        font-size: 26px;
+        margin-bottom: 23px;
+    }
+    .title-mockup span {
+        font-size: 50px;
+        margin: 12px 0;
+    }
+    .descr-mockup {
+        font-size: 16px;
+        max-width: 336px;
+    }
+    .page-mockup .btn-main {
+        margin-top: 43px;
+        height: 52px;
+        padding: 0 33px;
+    }
+
+
+    .page-about {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .billbord-about {
+        min-height: 400px;
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+    .billbord-about .title-section {
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    .billbord-about__text {
+        font-size: 16px;
+        max-width: 700px;
+        margin-left: 0;
+    }
+    .billbord-about__text p {
+        margin-bottom: 15px;
+    }
+    .item-partner {
+        height: 160px;
+        padding: 15px;
+        border-width: 1px;
+        border-radius: 10px;
+    }
+    .partners {
+        padding-bottom: 50px;
+    }
+    .item-advantage {
+        padding: 25px 20px;
+        border-radius: 16px;
+    }
+    .item-advantage__icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 18px;
+    }
+    .advantages {
+        padding-bottom: 20px;
+    }
+    .team {
+        padding: 40px 0;
+    }
+    .team .title-section {
+        margin-bottom: 28px;
+    }
+    .item-team {
+        padding: 16px;
+        padding-bottom: 40px;
+        border-radius: 16px;
+    }
+    .item-team__image {
+        height: 270px;
+        border-radius: 10px;
+    }
+    .item-team__image img {
+        border-radius: 10px;
+    }
+    .item-team__content {
+        padding: 19px 15px;
+        padding-bottom: 0;
+    }
+    .item-team__title {
+        margin-bottom: 2px;
+        font-size: 18px;
+    }
+    .documents {
+        padding-bottom: 50px;
+    }
+    .item-document {
+        padding: 8px;
+        gap: 7px;
+        border-radius: 16px;
+    }
+    .item-document:hover {
+        box-shadow: 0 5px 15px #e6e8f4;
+    }
+    .item-document__image {
+        width: 140px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .item-document__image img {
+        border-radius: 10px;
+    }
+    .item-document__content {
+        padding: 15px 0;
+    }
+    .item-document__descr {
+        gap: 7px;
+    }
+    .item-document__descr img {
+        width: 24px;
+    }
+    .consultation-about {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .image-page img {
+        border-radius: 16px;
+    }
+    .text-big {
+        font-size: 16px;
+    }
+    .consultation-about .text-big {
+        max-width: 668px;
+        margin-bottom: 20px;
+    }
+    .text-big p {
+        margin-bottom: 15px;
+    }
 }
 
 /* Small Devices, Tablets */

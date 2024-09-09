@@ -2172,3 +2172,59 @@ form {
 .page-article {
 	padding-bottom: 2.6vw;
 }
+
+.page-delivery {
+	padding-bottom: 3.65vw;
+}
+.delivery-block {
+	padding: 1.77vw 2.24vw;
+	border-radius: 0.83vw;
+	line-height: 140%;
+	background: #f1f5f6;
+	min-height: 100%;
+}
+.delivery-block .text-big {
+	margin-bottom: 1.51vw;
+	text-transform: uppercase;
+}
+.delivery-block__icon {
+	width: 1.88vw;
+	height: 1.88vw;
+	margin-bottom: 0.63vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.delivery-block__icon img {
+	width: 100%;
+	height: auto;
+}
+.delivery-block__item {
+	max-width: 11.2vw;
+}
+.delivery-block__subtitle {
+	margin-top: 1.35vw;
+	margin-bottom: 0.83vw;
+	font-size: 1.04vw;
+	line-height: 140%;
+	font-weight: 500;
+}
+.row.row_delivery > div {
+	margin-bottom: 3.39vw;
+}
+.row.row_delivery {
+	margin-bottom: -3.39vw;
+}
+.requisites {
+	font-size: 0.94vw;
+	line-height: 180%;
+	columns: 2;
+}
+.requisites p {
+	margin: 0;
+	display: flex;
+	align-items: flex-start;
+}
+.requisites p span:first-child {
+	min-width: 10.42vw;
+}

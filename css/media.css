@@ -1146,6 +1146,46 @@
     .page-article {
         padding-bottom: 50px;
     }
+
+
+    .page-delivery {
+        padding-bottom: 50px;
+    }
+    .delivery-block {
+        padding: 25px 15px;
+        font-size: 13px;
+        border-radius: 16px;
+    }
+    .delivery-block .text-big {
+        margin-bottom: 20px;
+    }
+    .delivery-block__icon {
+        width: 36px;
+        height: 36px;
+        margin-bottom: 12px;
+    }
+    .delivery-block__item {
+        max-width: 215px;
+    }
+    .delivery-block__subtitle {
+        margin-top: 18px;
+        margin-bottom: 14px;
+        font-size: 17px;
+    }
+    .row.row_delivery > div {
+        margin-bottom: 30px;
+    }
+    .row.row_delivery {
+        margin-bottom: -30px;
+    }
+    .requisites {
+        font-size: 14px;
+        columns: initial;
+    }
+    .requisites p span:first-child {
+        min-width: 138px;
+    }
+    
 }
 
 /* Small Devices, Tablets */

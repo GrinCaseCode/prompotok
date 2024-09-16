@@ -1185,7 +1185,9 @@
     .requisites p span:first-child {
         min-width: 138px;
     }
-    
+    .card-info {
+        top: 0;
+    }
 }
 
 /* Small Devices, Tablets */

@@ -2228,3 +2228,15 @@ form {
 .requisites p span:first-child {
 	min-width: 10.42vw;
 }
+
+.card-info {
+	top: 10.156vw;
+	position: sticky;
+}
+.page-card .tabs a {
+	padding-left: 0.26vw;
+	padding-right: 0.26vw;
+}
+.page-card .tabs li {
+	flex-grow: 1;
+}

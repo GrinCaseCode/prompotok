@@ -243,6 +243,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			]
 		});
 
+		$('.slider-photos').slick({
+			arrows: false,
+			dots: true,
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			touchThreshold: 1000,
+			autoplay: true,
+			autoplaySpeed: 6000,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
+		});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 

@@ -1188,6 +1188,21 @@
     .card-info {
         top: 0;
     }
+    .slider-photos__item {
+        height: auto;
+        border-radius: 16px;
+    }
+    .slider-photos__item img {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+        font-family: initial;
+        border-radius: 16px;
+    }
+    .slider-photos {
+       margin-top: 25px;
+       padding-bottom: 33px;
+    }
 }
 
 /* Small Devices, Tablets */
